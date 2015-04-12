@@ -28,3 +28,31 @@ oranges.contenido
 grapes.contenido
 banana.contenido
 watermelon.contenido
+
+#Hasta aquí me imprime cada fruta con su precio de unidad.
+#A partir de aquí he intentado calcular el precio de: 2 manzanas, 3 naranjas y 3 uvas. No he obtenido los resultados. 
+
+
+class Calculo
+
+	def initialize (numero, precio)
+		@numero = numero
+		@precio = precio
+
+	end
+
+	def total
+
+		puts numero*precio
+
+	end
+end
+
+cuantia1 = Calculo.new(2, 10)
+cuantia2 = Calculo.new(3, 5)
+cuantia3 = Calculo.new(4, 20)
+
+apples.total
+oranges.total
+grapes.total
+
